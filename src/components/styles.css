@@ -1,0 +1,86 @@
+/* Navbar css */
+
+header{
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%) !important;
+    background-color: white !important;
+    color: #0e2431;
+}
+header Nav{
+    color: #0e2431 !important;
+    
+    /* padding-left: 25px !important; */
+    font-size: 0.938rem !important;
+    font-weight: 600;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 45px;
+    color: #0e2431 !important;
+}
+.navbar-brand {
+  
+    margin-left: 15px;
+    font-size: 0.938rem !important;
+}
+
+/* navabar css ends */
+
+/* // Intro Section CSS */
+.home{
+    margin-left: 28px;
+    margin-top: 50px;
+}
+.home__title{
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+    color: #0e2431;
+    font-weight: bold;
+}
+.home__title-color{
+    color: #4070F4;
+}
+.home__img img{
+    width: 100%;
+}
+.home .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4070F4;
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+.home .button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  }
+
+  /* Intro section css ends */
+  .About{
+   margin-top: 4rem;
+  }
+
+.about-title{
+        position: relative;
+        font-size: 2rem;
+        color: #4070F4;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: bolder;
+      
+}
+  .about-title::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2.5rem;
+    background-color: #4070F4;
+    font-weight: bold;
+}
+
+  /* About Section css Starts */
