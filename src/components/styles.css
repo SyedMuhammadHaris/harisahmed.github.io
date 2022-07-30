@@ -56,11 +56,15 @@ header Nav{
   }
 
   /* Intro section css ends */
+
+  /* About Section css Starts */
   .About{
    margin-top: 4rem;
+   /* margin-left: auto;
+   margin-right: auto; */
   }
 
-.about-title{
+.about_title{
         position: relative;
         font-size: 2rem;
         color: #4070F4;
@@ -70,7 +74,7 @@ header Nav{
         font-weight: bolder;
       
 }
-  .about-title::after {
+  .about_title::after {
     position: absolute;
     content: "";
     width: 64px;
@@ -83,4 +87,17 @@ header Nav{
     font-weight: bold;
 }
 
-  /* About Section css Starts */
+.about_image{
+    width: 100%;
+}
+.about_2{
+    margin-top: 8rem;
+    
+}
+.about__subtitle{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.about__text{
+    text-align:start;    
+}
