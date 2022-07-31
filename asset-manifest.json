@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69d7272c.css",
+    "main.js": "/static/js/main.3560e314.js",
+    "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
+    "static/media/programmer.png": "/static/media/programmer.b55b30bd042720fc5ba7.png",
+    "static/media/programmer2.png": "/static/media/programmer2.ce3aacfcadf59d65d018.png",
+    "static/media/sayllani_clone.JPG": "/static/media/sayllani_clone.309ec2654baff241fbeb.JPG",
+    "static/media/coffee_shop_webapp.JPG": "/static/media/coffee_shop_webapp.3b5ca441b768bb4a4400.JPG",
+    "static/media/photo_studio_webapp.JPG": "/static/media/photo_studio_webapp.7016851c2d4ac7877413.JPG",
+    "static/media/Muhammad-Haris-Ahmed-Resume.pdf": "/static/media/Muhammad-Haris-Ahmed-Resume.5b92157eddfca20b8263.pdf",
+    "static/media/bootstrap.png": "/static/media/bootstrap.efb977d5732fcbe1465c.png",
+    "static/media/react_recipe_app.JPG": "/static/media/react_recipe_app.ffbdd4a2f19c744ece90.JPG",
+    "static/media/personal_app.JPG": "/static/media/personal_app.a3299f879877430b6ec2.JPG",
+    "static/media/weather_app.JPG": "/static/media/weather_app.3c13ee9868382241876c.JPG",
+    "static/media/react.png": "/static/media/react.9e605cca70760d56cdad.png",
+    "static/media/mongodb.png": "/static/media/mongodb.ffcd215877f5baba95bd.png",
+    "index.html": "/index.html",
+    "main.69d7272c.css.map": "/static/css/main.69d7272c.css.map",
+    "main.3560e314.js.map": "/static/js/main.3560e314.js.map",
+    "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69d7272c.css",
+    "static/js/main.3560e314.js"
+  ]
+}
