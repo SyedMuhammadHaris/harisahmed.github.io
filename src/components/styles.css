@@ -3,13 +3,14 @@
 header{
     box-shadow: 0 1px 4px rgb(146 161 176 / 15%) !important;
     background-color: white !important;
-    color: #0e2431;
+    color: #0E2431;
 }
+
 header Nav{
-    color: #0e2431 !important;
+    color: #0E2431 !important;
     
     /* padding-left: 25px !important; */
-    font-size: 0.938rem !important;
+    font-size: 1.1rem !important;
     font-weight: 600;
     
 }
@@ -17,19 +18,22 @@ header Nav{
     margin-right: 45px;
     color: #0e2431 !important;
 }
+
 .navbar-brand {
   
     margin-left: 15px;
-    font-size: 0.938rem !important;
+    font-size: 1.2rem !important;
 }
 
 /* navabar css ends */
 
 /* // Intro Section CSS */
 .home{
-    margin-left: 28px;
+    margin-left: 74px;
     margin-top: 50px;
+    /* overflow-x: hidden; */
 }
+
 .home__title{
     font-size: 3.5rem;
     margin-bottom: 2.5rem;
@@ -64,7 +68,7 @@ header Nav{
    margin-right: auto; */
   }
 
-.about_title,.project_title{
+.about_title{
         position: relative;
         font-size: 2rem;
         color: #4070F4;
@@ -74,7 +78,7 @@ header Nav{
         font-weight: bolder;
       
 }
-  .about_title,.project_title::after {
+  .about_title::after {
     position: absolute;
     content: "";
     width: 64px;
@@ -87,7 +91,7 @@ header Nav{
     font-weight: bold;
 }
 
-.about_image{
+.about_image img{
     width: 100%;
 }
 .about_2{
@@ -98,18 +102,17 @@ header Nav{
     margin-bottom: 1rem;
     font-weight: bold;
 }
-.about__text{
+/* .about__text{
     text-align:start;    
-}
+} */
 
 /* // About Section css ends */
 
  /* Skills section CSS starts */
 .skills{
-    margin-left: auto;
-    margin-right: auto;
+   margin-top: 4rem;
 }
- .skills_title{
+.skills_title{
     position: relative;
     font-size: 2rem;
     color: #4070F4;
@@ -145,50 +148,116 @@ font-weight: bold;
 /* skills section css ends */
 
 /* Project Section css starts */
+.project{
+    margin-top: 4rem;
+}
+.project_title{
+    position: relative;
+    font-size: 2rem;
+    color: #4070F4;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.project_title::after {
+    position: absolute;
+    content: "";
+    width: 96px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2.5rem;
+    background-color: #4070F4;
+    font-weight: bold;
+    }
 .imageCol{
     text-align: center;
     padding-top: 2rem;
     margin-top: 2rem;
 }
+
+    
 .projImg{
     /* width: 90%; */
     max-width: 100%;
     height: auto;
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .3rem;
+    object-fit: fill;
     /* overflow: hidden; */
 
 }
- /* .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+/* Project Section CSS Ends */
+
+.footer{
+    background-color: #0E2431;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 2rem 0;
+    margin-top: 5rem;
   }
-  
-  Create four equal columns that sits next to each other
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+  .footer__title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  .footer__social{
+    margin-bottom: 2rem;
   }
-  
-  Responsive layout - makes a two column-layout instead of four columns
-  @media (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
+  .footer__icon{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 1rem;
+  }
+  .footer__icon:hover{
+
+    color: #fff;
+  }
+
+    /* Media Quiries */
+    @media (max-width: 768px){
+        .navbar-expand-lg .navbar-nav .nav-link{
+            margin-right: 0px;
+            
+        }
+        .navbar-brand {
+           margin-left: 0px;
+        }
+        .home{
+            margin-left: 28px;
+        }
+        .home__title{
+            font-size: 3rem;
+        }
+        .home__img{
+            text-align: center;
+        }
+       .about_2{
+        text-align: center;
+       }
+       .about_image{
+        text-align: center;
+       }
     }
-  }
-  
-  Responsive layout - makes the two columns stack on top of each other instead of next to each other
-  @media (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
+
+    @media (max-width:576px) {
+       
+     
+        .home__title{
+            font-size: 2rem;
+        }
+        
+       .about_image img{
+        text-align: center;
+        
+       }
+       .footer__title{
+        font-size: 1.5rem;
+      }
+      .footer__icon{
+        font-size: 1rem;
+      }
     }
-  } */
+ 

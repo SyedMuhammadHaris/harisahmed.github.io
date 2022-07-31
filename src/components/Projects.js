@@ -5,7 +5,7 @@ import './styles.css';
 import { portfolioWork } from './portfolio.js';
 const Projects = () => {
     return (
-        <section>
+        <section className='project' data-aos="fade-up" id="Projects">
             <Container>
                 <h1 className="project_title">
                     Projects

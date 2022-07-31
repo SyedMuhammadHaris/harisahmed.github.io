@@ -7,7 +7,7 @@ const Skills = () =>{
      
    
     return(
-        <section className='skills'>
+        <section className='skills' data-aos="fade-up" id="Skills">
             <Container>
                <h1 className='skills_title'>
                   Skills
@@ -15,8 +15,8 @@ const Skills = () =>{
             <Row>
                 { skillsSection.softwareSkills.map((skills,i)=>{
                     return(
-                        <Col key={i} md={4}>
-                         <div style={{'text-align':'center'}}>
+                        <Col key={i} md={4}  xs={6}>
+                         <div style={{'textAlign':'center'}}>
                           <img src={skills.skillIcon} alt="Skills Icon" className='icon_image'/>
                           <p className='icon_text'>{skills.skillName}</p>
                           </div>

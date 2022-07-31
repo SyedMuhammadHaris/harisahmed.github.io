@@ -6,7 +6,7 @@ import Expressjs from './images/skils-icons/expressjs.png';
 import Nodejs from './images/skils-icons/nodejs.png';
 import Mongodb from './images/skils-icons/mongodb.png';
 import BootstrapLogo from './images/skils-icons/bootstrap.png';
-import Git from './images/skils-icons/git.png';
+import Sql from './images/skils-icons/sql-server.png';
 import  Coffee from './images/portfolio/coffee_shop_webapp.JPG'; 
 import  Sayllani from './images/portfolio/sayllani_clone.JPG'; 
 import  PhotoDesign from './images/portfolio/photo_studio_webapp.JPG'; 
@@ -49,8 +49,8 @@ const skillsSection = {
         skillName: "Mongodb"
     },
     {
-        skillIcon: Git,
-        skillName: "Git"
+        skillIcon: Sql,
+        skillName: "SQL"
     }
 ]
 }
@@ -68,16 +68,6 @@ const portfolioWork = {
             link:"https://espresso-cafe-93bb2.web.app/index.html"
         },
         {
-            projectImage: Sayllani,
-            projDes: "Sayllani Home Page Clone Website",
-            link:"https://syedmuhammadharis.github.io/saylanihomaepageassignment3/#"
-        },
-        {
-            projectImage: WeatherApp,
-            projDes: "Wheather App in JS",
-            link:"https://github.com/SyedMuhammadHaris/simple-weather-app-in-js"
-        },
-        {
             projectImage: RecipeApp,
             projDes: "Recipe App in react",
             link:"https://recipes-app-in-react.netlify.app/"
@@ -87,6 +77,17 @@ const portfolioWork = {
             projDes: "Portfolio Website",
             link:""
         },
+        {
+            projectImage: Sayllani,
+            projDes: "Sayllani Home Page Clone Website",
+            link:"https://syedmuhammadharis.github.io/saylanihomaepageassignment3/#"
+        },
+        {
+            projectImage: WeatherApp,
+            projDes: "Wheather App in JS",
+            link:"https://github.com/SyedMuhammadHaris/simple-weather-app-in-js"
+        }
+       
 
 
     ]
